@@ -1,0 +1,65 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="widgets_qm">widgets_zh_CN.qm</file>
+    </qresource>
+    <qresource prefix="/simple">
+        <file>simple_images/background.ico</file>
+        <file>simple_images/background.png</file>
+        <file>simple_images/Background_color.ico</file>
+        <file>simple_images/Background_color.png</file>
+        <file>simple_images/color_palette.ico</file>
+        <file>simple_images/color_palette.png</file>
+        <file>simple_images/format_align_center.ico</file>
+        <file>simple_images/format_align_center.png</file>
+        <file>simple_images/format_align_justify.ico</file>
+        <file>simple_images/format_align_justify.png</file>
+        <file>simple_images/format_align_left.ico</file>
+        <file>simple_images/format_align_left.png</file>
+        <file>simple_images/format_align_right.ico</file>
+        <file>simple_images/format_align_right.png</file>
+        <file>simple_images/format_color_text.ico</file>
+        <file>simple_images/format_color_text.png</file>
+        <file>simple_images/format_ital.ico</file>
+        <file>simple_images/format_ital.png</file>
+        <file>simple_images/format_paint.ico</file>
+        <file>simple_images/format_paint.png</file>
+        <file>simple_images/format_underline.ico</file>
+        <file>simple_images/format_underline.png</file>
+        <file>simple_images/image.ico</file>
+        <file>simple_images/image.png</file>
+        <file>simple_images/landscape.ico</file>
+        <file>simple_images/landscape.png</file>
+        <file>simple_images/format_bold.ico</file>
+        <file>simple_images/format_bold.png</file>
+        <file>simple_images/close.ico</file>
+        <file>simple_images/close.png</file>
+    </qresource>
+    <qresource prefix="/word">
+        <file>word_images/align_center.ico</file>
+        <file>word_images/align_center.png</file>
+        <file>word_images/align_justify.ico</file>
+        <file>word_images/align_justify.png</file>
+        <file>word_images/align_left.ico</file>
+        <file>word_images/align_left.png</file>
+        <file>word_images/align_right.ico</file>
+        <file>word_images/align_right.png</file>
+        <file>word_images/background_color.ico</file>
+        <file>word_images/background_color.png</file>
+        <file>word_images/bold.ico</file>
+        <file>word_images/bold.png</file>
+        <file>word_images/image.ico</file>
+        <file>word_images/image.png</file>
+        <file>word_images/italic.ico</file>
+        <file>word_images/italic.png</file>
+        <file>word_images/select_background_color.ico</file>
+        <file>word_images/select_background_color.png</file>
+        <file>word_images/select_color_text_A.ico</file>
+        <file>word_images/select_color_text_A.png</file>
+        <file>word_images/text_color.ico</file>
+        <file>word_images/text_color.png</file>
+        <file>word_images/underline.ico</file>
+        <file>word_images/underline.png</file>
+        <file>word_images/exit.ico</file>
+        <file>word_images/exit.png</file>
+    </qresource>
+</RCC>
