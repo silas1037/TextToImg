@@ -170,9 +170,13 @@ void TextToImg::genImg()
     painter.drawText(image.rect(), flags, imageText);
 //    painter.drawRoundRect(image.rect(), fontWidth / 4, fontHeight / 4);
 
+    QString name = imageText;
+	name = name.trimmed();
+    if(name.contains("\n"))
+        name = name.mid(0, name.indexOf("\n"));
     QString imgPath(QString("%1/images/%2_%3.png")
                     .arg(QDir::currentPath())
-                    .arg(imageText)
+                    .arg(name)
                     .arg(QDateTime::currentDateTime().toTime_t()));
     image.save(imgPath, "PNG", 100);
 
