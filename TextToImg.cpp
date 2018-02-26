@@ -149,14 +149,12 @@ void TextToImg::genImg()
 
     //以ARGB32格式构造一个QImage
     QImage image(size, QImage::Format_ARGB32);
-    //填充图片背景,120/250为透明度
+    //填充图片背景
     image.fill(qRgba(BGColor.red(), BGColor.green(), BGColor.blue(), alpha));
 
     //为这个QImage构造一个QPainter
     QPainter painter(&image);
 
-    //设置画刷的组合模式CompositionMode_SourceOut这个模式为目标图像在上。
-    //改变组合模式和上面的填充方式可以画出透明的图片。
     alpha == 0 ? painter.setCompositionMode(QPainter::CompositionMode_DestinationOver)
                : painter.setCompositionMode(QPainter::CompositionMode_SourceIn);
 
